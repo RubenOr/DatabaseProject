@@ -18,7 +18,9 @@ For your group project you will design and build a database for the purposes of 
 •	There will be categories that books are labeled under.
 •	Customers should have information stored in the system and customers will be able to order books.
 
+
 Relational Schema:
+
 Address(CID, address) CID is FK to ContactDetail
 Author(AuthorID, first, last, Gender, DOB, ContactID) 	ContactID is FK to ContactDetail
 Book(ISBN, Title, Publish Date, Price)
